@@ -37,7 +37,7 @@ The project is structured into two main sequential milestones (Tasks):
 * **Supported Commands:** `G0`, `G1`, `G2` (CW Arc), `G3` (CCW Arc), `G90` (Absolute), `G91` (Incremental).
 * **Workflow:** Allows users to manually enter single G-code commands or load scripts to visualize planned toolpaths, formula plots, and linear/circular moves prior to physical execution.
 
-#### 📸 Task 1 Visual Preview
+#### Task 1 Visual Preview
 ![Task 1 - GUI Trajectory Plotting](images/gui_interface_task1.png)
 *Figure 1: Task 1 Host GUI displaying G-code input panel and interactive trajectory plotting for linear and circular arcs ($G2/G3$).*
 
@@ -48,7 +48,7 @@ The project is structured into two main sequential milestones (Tasks):
 * **Supported Commands:** `G0`, `G1`, `G90`, `G91`.
 * **Workflow:** G-code streaming over USB-UART to the ESP32-S3 MCU, which executes synchronized pulse generation via Bresenham's line algorithm and trapezoidal velocity profiling to actuate physical Nema 17 stepper motors.
 
-#### 📸 Task 2 Visual Previews
+#### Task 2 Visual Previews
 | Hardware Experimental Platform | Real-Time Telemetry Interface |
 | :---: | :---: |
 | ![Task 2 - Physical Model](images/physical_model.png) | ![Task 2 - Telemetry GUI](images/gui_interface_task3.png) |
