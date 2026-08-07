@@ -1,3 +1,1 @@
-G0 X0
-G0 Y0
-G0 Z0
+https://www.youtube.com/watch?v=nwlE33-ZMWg&list=PLYTWArW2nDXM&index=2
