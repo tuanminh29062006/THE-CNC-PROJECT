@@ -11,13 +11,13 @@ This software parses standard motion G-code commands, computes real-time toolhea
 
 ---
 
-## 📸 Interface Overview
+## Interface Overview
 
 ![G-Code Simulation Interface](task1.png)
 
 ---
 
-## ✨ Key Features & Capabilities
+## Key Features & Capabilities
 
 ### 1. Motion Command Parsing
 * **Linear Interpolation:**
