@@ -76,7 +76,7 @@ The project is structured into two main sequential milestones (Tasks):
 * **Actuators:** 3× Nema 17 Stepper Motors (42mm frame, 1.8° step angle, $200	ext{ steps/rev}$).
 * **Drivers & Expansion:** CNC Shield V3 with A4988 microstepping drivers ($1/16$ microstepping mode).
 * **Power Supply:** 12V 5A DC Switching Power Supply.
-* **Kinematics Resolution:** $400	ext{ steps/mm}$ scale factor on lead screw drives.
+* **Kinematics Resolution:** 400	steps/mm scale factor on lead screw drives.
 
 ---
 
