@@ -8,12 +8,7 @@
 
 An open-loop, real-time multi-axis CNC stepper motor controller and telemetry visualization interface developed at **Ho Chi Minh City University of Technology (HCMUT)**. The system utilizes a dual-core **ESP32-S3** microcontroller to execute deterministic synchronized step pulses via **Bresenham's algorithm** and streams real-time toolhead telemetry over UART to a host PC GUI.
 
----
-
-## 🎬 Video Demonstration
-
-[![Visit the Youtube Playlist](https://img.youtube.com/vi/YOUR_YOUTUBE_VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/playlist?list=PLYTWArW2nDXM)
-
+*Visit the Youtube Playlist: [![Click Here to see Video Demonstration](https://img.youtube.com/vi/YOUR_YOUTUBE_VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/playlist?list=PLYTWArW2nDXM)*.
 
 ---
 
