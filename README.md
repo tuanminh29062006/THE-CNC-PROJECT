@@ -51,7 +51,7 @@ The project is structured into two main sequential milestones (Tasks):
 #### 📸 Task 2 Visual Previews
 | Hardware Experimental Platform | Real-Time Telemetry Interface |
 | :---: | :---: |
-| ![Task 2 - Hardware Schematic](images/hardware_schematic.png) | ![Task 2 - Telemetry GUI](images/gui_interface_task3.png) |
+| ![Task 2 - Physical Model](images/physical_model.png) | ![Task 2 - Telemetry GUI](images/gui_interface_task3.png) |
 | *Figure 2: Physical experimental setup featuring ESP32-S3, CNC Shield V3, and Nema 17 stepper motors.* | *Figure 3: Host PC GUI tracking real-time toolhead coordinates, step counts, and status telemetry.* |
 
 ---
