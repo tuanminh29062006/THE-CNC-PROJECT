@@ -1,4 +1,4 @@
-# 🎛️ ESP32-S3 Multi-Axis Motion Control & G-Code Processing System
+# ESP32-S3 Multi-Axis Motion Control & G-Code Processing System
 
 ![HCMUT Logo](https://img.shields.io/badge/University-HCMUT%20%2F%20Bach%20Khoa%20TPHCM-blue.svg)
 ![Author](https://img.shields.io/badge/Author-Cao%20Tuan%20Minh-green.svg)
