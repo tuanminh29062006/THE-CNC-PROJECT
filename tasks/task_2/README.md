@@ -1,7 +1,6 @@
 # 🖥️ ESP32-S3 Multi-Axis Stepper Motor Controller & Real-Time GUI Interface
 
 [![Type](https://img.shields.io/badge/Module-Software%20%2F%20Simulation-blue.svg)]()
-[![Hardware](https://img.shields.io/badge/Hardware-ESP32--S3%20%7C%20A4988%20%7C%20Nema17-red.svg)]()
 [![Language](https://img.shields.io/badge/Language-Python%20%2F%20CPP%20%2F%20MATLAB-orange.svg)]()
 [![Status](https://img.shields.io/badge/Status-In%20Development-yellow.svg)]()
 [![Author](https://img.shields.io/badge/Author-Cao%20Tuan%20Minh-green.svg)]()
