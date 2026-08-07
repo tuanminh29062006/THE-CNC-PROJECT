@@ -54,14 +54,12 @@ An open-loop, real-time multi-axis CNC stepper motor controller and telemetry vi
 
 To prevent step skipping/loss during rapid speed transitions, the pulse generator implements a **Trapezoidal Move Profile**:
 
-* **Ramp-up Stage** ($\text{STEP} < \text{RAMP\_STEP}$):
-  $$\text{DELAY} = \text{START\_DELAY} - \left((\text{START\_DELAY} - \text{TARGET\_DELAY}) \times \frac{\text{STEP}}{\text{RAMP\_STEP}}\right)$$
-* **Cruise Stage** ($\text{RAMP\_STEP} \le \text{STEP} < \text{MAX\_STEP} - \text{RAMP\_STEP}$): Constant velocity at $\text{TARGET\_DELAY}$.
-* **Ramp-down Stage** ($\text{STEP} \ge \text{MAX\_STEP} - \text{RAMP\_STEP}$):
-  $$\text{DELAY} = \text{START\_DELAY} - \left((\text{START\_DELAY} - \text{TARGET\_DELAY}) \times \frac{\text{REM\_STEP}}{\text{RAMP\_STEP}}\right)$$
-* **Configured Thresholds:** $\text{START\_DELAY} = 1200\ \mu\text{s}$, with default Feedrates of $1500\text{ mm/min}$ (Rapid G0) and $300\text{ mm/min}$ (Cutting G1).
-
----
+* **Ramp-up Stage** ($\text{STEP} < \text{RAMP}_{\text{STEP}}$):
+  $$\text{DELAY} = \text{START}_{\text{DELAY}} - \left((\text{START}_{\text{DELAY}} - \text{TARGET}_{\text{DELAY}}) \times \frac{\text{STEP}}{\text{RAMP}_{\text{STEP}}}\right)$$
+* **Cruise Stage** ($\text{RAMP}_{\text{STEP}} \le \text{STEP} < \text{MAX}_{\text{STEP}} - \text{RAMP}_{\text{STEP}}$): Constant velocity at $\text{TARGET}_{\text{DELAY}}$.
+* **Ramp-down Stage** ($\text{STEP} \ge \text{MAX}_{\text{STEP}} - \text{RAMP}_{\text{STEP}}$):
+  $$\text{DELAY} = \text{START}_{\text{DELAY}} - \left((\text{START}_{\text{DELAY}} - \text{TARGET}_{\text{DELAY}}) \times \frac{\text{REM}_{\text{STEP}}}{\text{RAMP}_{\text{STEP}}}\right)$$
+* **Configured Thresholds:** $\text{START}_{\text{DELAY}} = 1200\ \mu\text{s}$, with default Feedrates of $1500\text{ mm/min}$ (Rapid G0) and $300\text{ mm/min}$ (Cutting G1).
 
 ## 🛠️ Hardware Specifications & Component Bill
 
