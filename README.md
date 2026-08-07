@@ -9,7 +9,7 @@ An open-loop, real-time multi-axis CNC motion control system and G-code executio
 
 ---
 
-## 📌 Project Architecture & Development Tasks
+## Project Architecture & Development Tasks
 
 The project is structured into two main sequential milestones (Tasks):
 
@@ -56,7 +56,7 @@ The project is structured into two main sequential milestones (Tasks):
 
 ---
 
-## 🛠️ Feature Comparison Matrix
+## Feature Comparison Matrix
 
 | Feature / Capability | Task 1 (Path Simulator) | Task 2 (Hardware Control) |
 | :--- | :---: | :---: |
@@ -70,7 +70,7 @@ The project is structured into two main sequential milestones (Tasks):
 
 ---
 
-## 🤖 Hardware Architecture (Task 2)
+## Hardware Architecture (Task 2)
 
 * **Main Controller:** ESP32-S3 (Dual-core Xtensa LX7, 240 MHz).
 * **Actuators:** 3× Nema 17 Stepper Motors (42mm frame, 1.8° step angle, $200	ext{ steps/rev}$).
@@ -80,7 +80,7 @@ The project is structured into two main sequential milestones (Tasks):
 
 ---
 
-## 🎓 Skills & Knowledge Acquired
+## Skills & Knowledge Acquired
 
 Through the successful completion of both Task 1 and Task 2 during the summer term, key engineering competencies were established:
 
