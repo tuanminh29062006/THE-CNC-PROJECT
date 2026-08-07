@@ -100,7 +100,7 @@ Through the successful completion of both Task 1 and Task 2 during the summer te
 
 ---
 
-## 📜 Copyright & Terms of Use
+## Copyright & Terms of Use
 
 ```text
 ================================================================================
