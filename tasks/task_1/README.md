@@ -1,4 +1,4 @@
-# 🖥️ G-Code Simulator & Motion Trajectory Visualizer
+# G-Code Simulator & Motion Trajectory Visualizer
 
 [![Type](https://img.shields.io/badge/Module-Software%20%2F%20Simulation-blue.svg)]()
 [![Language](https://img.shields.io/badge/Language-Python%20%2F%20MATLAB-orange.svg)]()
@@ -56,3 +56,21 @@ Real-time console logging for every execution step `t`, providing:
 * **2D Visual Focus:** While $Z$-axis tracking and velocity/acceleration logging are computed in 3D telemetry, the visual preview window focuses primarily on 2D $(X, Y)$ plane projections.
 
 ---
+
+## Copyright & Terms of Use
+
+```text
+================================================================================
+PROJECT COPYRIGHT & TERMS OF USE
+================================================================================
+Copyright (c) 2026 Cao Tuấn Minh. All Rights Reserved.
+Ho Chi Minh City University of Technology (HCMUT - Trường Đại học Bách Khoa TP.HCM)
+
+This project, source code, hardware schematics, and documentation were created 
+by Cao Tuấn Minh for academic coursework and research at HCMUT.
+
+Permission is hereby granted for educational and non-commercial review. 
+Unauthorized distribution, commercial exploitation, or reproduction 
+without explicit written permission from the author is strictly prohibited.
+================================================================================
+```
