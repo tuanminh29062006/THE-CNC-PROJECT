@@ -1,0 +1,77 @@
+[SYSTEM] Start Simulation
+         | Gcode Parsed.
+
+         | Checking MCU Connection...
+         | Connecting to MCU...
+         | Successfully connected to MCU.
+
+         | Ready to deliver.
+         | Start delivering 12 lines.
+
+         | Received Resolution Time.
+         | Received G-Code line.
+X: 0.00200 | Y: 0.00000 | Z: 0.00000
+Step X: 1.00000 | Step Y: 0.00000 | Step Z: 0.00000
+
+         | Received G-Code line.
+         | Received G-Code line.
+         | Received G-Code line.
+         | Received G-Code line.
+         | Received G-Code line.
+         | Received G-Code line.
+         | Received G-Code line.
+         | Received G-Code line.
+         | Received G-Code line.
+         | Received G-Code line.
+
+         | Finish delivering 12 lines.
+X: 4.44300 | Y: 0.00000 | Z: 0.00000
+Step X: 1777.00000 | Step Y: 0.00000 | Step Z: 0.00000
+
+X: 5.00000 | Y: 1.26500 | Z: 0.00000
+Step X: 2000.00000 | Step Y: 506.00000 | Step Z: 0.00000
+
+X: 5.00000 | Y: 5.00000 | Z: 0.06500
+Step X: 2000.00000 | Step Y: 2000.00000 | Step Z: 26.00000
+
+X: 5.00000 | Y: 5.00000 | Z: 4.69800
+Step X: 2000.00000 | Step Y: 2000.00000 | Step Z: 1879.00000
+
+X: 3.76500 | Y: 3.76500 | Z: 3.76500
+Step X: 1506.00000 | Step Y: 1506.00000 | Step Z: 1506.00000
+
+X: 0.18500 | Y: 0.18500 | Z: 0.18500
+Step X: 74.00000 | Step Y: 74.00000 | Step Z: 74.00000
+
+X:-2.65800 | Y: 0.00000 | Z: 0.00000
+Step X:-1063.00000 | Step Y: 0.00000 | Step Z: 0.00000
+
+X:-5.00000 | Y:-0.23500 | Z: 0.00000
+Step X:-2000.00000 | Step Y:-94.00000 | Step Z: 0.00000
+
+X:-5.00000 | Y:-4.89500 | Z: 0.00000
+Step X:-2000.00000 | Step Y:-1958.00000 | Step Z: 0.00000
+
+X:-5.00000 | Y:-5.00000 | Z:-3.32000
+Step X:-2000.00000 | Step Y:-2000.00000 | Step Z:-1328.00000
+
+X:-4.66200 | Y:-4.66200 | Z:-4.66200
+Step X:-1865.00000 | Step Y:-1865.00000 | Step Z:-1865.00000
+
+X:-0.66800 | Y:-0.66800 | Z:-0.66800
+Step X:-267.00000 | Step Y:-267.00000 | Step Z:-267.00000
+
+X: 0.25500 | Y: 0.50700 | Z: 0.76200
+Step X: 102.00000 | Step Y: 203.00000 | Step Z: 305.00000
+
+X: 0.94000 | Y: 1.87800 | Z: 2.81800
+Step X: 376.00000 | Step Y: 751.00000 | Step Z: 1127.00000
+
+X: 0.00000 | Y: 0.00000 | Z: 0.00000
+Step X: 0.00000 | Step Y: 0.00000 | Step Z: 0.00000
+
+X:-0.94000 | Y:-1.87800 | Z:-2.81800
+Step X:-376.00000 | Step Y:-751.00000 | Step Z:-1127.00000
+
+X:-1.00000 | Y:-2.00000 | Z:-3.00000
+Step X:-400.00000 | Step Y:-800.00000 | Step Z:-1200.00000
