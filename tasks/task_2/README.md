@@ -12,7 +12,7 @@ An open-loop, real-time multi-axis CNC stepper motor controller and telemetry vi
 
 ---
 
-## 📸 System Overview & Visuals
+## System Overview & Visuals
 
 ### 1. Software GUI Interface
 ![GUI Interface Preview](gui_interface.png)
@@ -28,7 +28,7 @@ An open-loop, real-time multi-axis CNC stepper motor controller and telemetry vi
 
 ---
 
-## ✨ Key Features & System Architecture
+## Key Features & System Architecture
 
 ### 1. Dual-Core Firmware Architecture (ESP32-S3)
 * **Core 0 (Dedicated Motion Engine):** Handles microsecond-accurate STEP pulse timing, Direction toggling, and trapezoidal acceleration profiles without interruption.
@@ -59,7 +59,7 @@ To prevent step skipping/loss during rapid speed transitions, the pulse generato
 
 * **Configured Thresholds:** $\mathtt{START\\_DELAY} = 1200\ \mu\text{s}$, with default Feedrates of $1500\text{ mm/min}$ (Rapid G0) and $300\text{ mm/min}$ (Cutting G1).
 
-## 🛠️ Hardware Specifications & Component Bill
+## Hardware Specifications & Component Bill
 
 | # | Component / Hardware Module | Quantity | Specifications & Role |
 |---|-----------------------------|----------|--------------------------------------------------|
@@ -72,7 +72,7 @@ To prevent step skipping/loss during rapid speed transitions, the pulse generato
 
 ---
 
-## 📡 Communication Protocol & Bandwidth Optimization
+## Communication Protocol & Bandwidth Optimization
 
 * **Handshake Protocol:** Host GUI sends a `PING` byte upon connection; ESP32-S3 verifies serial readiness and responds with `PONG`.
 * **Serial Configuration:** 115200 Baud Rate over USB-UART connection.
@@ -85,7 +85,7 @@ To prevent step skipping/loss during rapid speed transitions, the pulse generato
 
 ---
 
-## 📜 Supported G-Code Commands
+## Supported G-Code Commands
 
 | Command | Category | Description | Default Parameter |
 |---------|----------|-------------|-------------------|
