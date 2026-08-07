@@ -1,11 +1,11 @@
 # ESP32-S3 Multi-Axis Motion Control & G-Code Processing System
 
 ![HCMUT Logo](https://img.shields.io/badge/University-HCMUT%20%2F%20Bach%20Khoa%20TPHCM-blue.svg)
-![Author](https://img.shields.io/badge/Author-Cao%20Tuan%20Minh-green.svg)
-![Status](https://img.shields.io/badge/Status-Completed%20(Summer%20Term)-brightgreen.svg)
+![Author](https://img.shields.io/badge/Author-Cao%20Tuan%20Minh-yellow.svg)
+![Status](https://img.shields.io/badge/Status-Completed-green.svg)
 ![License](https://img.shields.io/badge/License-Copyright%20©%202026%20Cao%20Tuan%20Minh-orange.svg)
 
-An open-loop, real-time multi-axis CNC motion control system and G-code execution engine developed by **Cao Tuấn Minh** at **Ho Chi Minh City University of Technology (HCMUT / Trường Đại học Bách Khoa TP.HCM)**. The project was successfully implemented and completed during the **Summer Semester (Học kỳ Hè)**.
+An open-loop, real-time multi-axis CNC motion control system and G-code execution engine developed by **Cao Tuấn Minh** at **Ho Chi Minh City University of Technology (HCMUT / Trường Đại học Bách Khoa TP.HCM)**. The project was successfully implemented and completed during the **Summer Semester 253**.
 
 ---
 
@@ -38,7 +38,7 @@ The project is structured into two main sequential milestones (Tasks):
 * **Workflow:** Allows users to manually enter single G-code commands or load scripts to visualize planned toolpaths, formula plots, and linear/circular moves prior to physical execution.
 
 #### 📸 Task 1 Visual Preview
-![Task 1 - GUI Trajectory Plotting](assets/gui_interface_task1.png)
+![Task 1 - GUI Trajectory Plotting](images/gui_interface_task1.png)
 *Figure 1: Task 1 Host GUI displaying G-code input panel and interactive trajectory plotting for linear and circular arcs ($G2/G3$).*
 
 ---
