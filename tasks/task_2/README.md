@@ -48,21 +48,21 @@ An open-loop, real-time multi-axis CNC stepper motor controller and telemetry vi
 * **Resolution / Scale:** Converts step counts to physical displacement using lead screw kinematics:
   $$\text{Resolution} = \frac{(1.8^\circ / 360^\circ) \times 16 \text{ microsteps}}{8 \text{ mm/rev}} = 400 \text{ steps/mm}$$
 * **Quantized Position Formula:** $\text{Position (mm)} = \frac{\text{Accumulated Steps}}{400 \text{ steps/mm}}$
-* **UART Telemetry Stream:** Transmits packed ASCII status frames (e.g., `<POS: 1, +12.345, -50.200, +3.100, IDLE><STEP: 1600.000, 3200.000, 400.000>`).
+* **UART Telemetry Stream:** Transmits packed ASCII status frames (e.g., `<POS:1,+12.345,-50.200,+3.100,IDLE,RUN,IDLE><STEP: 1600.000, 3200.000, 400.000>`).
 
 ### 4. Trapezoidal Acceleration & Deceleration Profiling
 
 To prevent step skipping/loss during rapid speed transitions, the pulse generator implements a **Trapezoidal Move Profile**:
 
-* **Ramp-up Stage** ($\text{STEP} < \text{RAMP}_{\text{STEP}}$):
-  $$\text{DELAY} = \text{START}_{\text{DELAY}} - \left((\text{START}_{\text{DELAY}} - \text{TARGET}_{\text{DELAY}}) \times \frac{\text{STEP}}{\text{RAMP}_{\text{STEP}}}\right)$$
+* **Ramp-up Stage** ($\mathtt{STEP} < \mathtt{RAMP\\_STEP}$):
+  $$\mathtt{DELAY} = \mathtt{START\\_DELAY} - \left((\mathtt{START\\_DELAY} - \mathtt{TARGET\\_DELAY}) \times \frac{\mathtt{STEP}}{\mathtt{RAMP\\_STEP}}\right)$$
 
-* **Cruise Stage** ($\text{RAMP}_{\text{STEP}} \le \text{STEP} < \text{MAX}_{\text{STEP}} - \text{RAMP}_{\text{STEP}}$): Constant velocity at $\text{TARGET}_{\text{DELAY}}$.
+* **Cruise Stage** ($\mathtt{RAMP\\_STEP} \le \mathtt{STEP} < \mathtt{MAX\\_STEP} - \mathtt{RAMP\\_STEP}$): Constant velocity at $\mathtt{TARGET\\_DELAY}$.
 
-* **Ramp-down Stage** ($\text{STEP} \ge \text{MAX}_{\text{STEP}} - \text{RAMP}_{\text{STEP}}$):
-  $$\text{DELAY} = \text{START}_{\text{DELAY}} - \left((\text{START}_{\text{DELAY}} - \text{TARGET}_{\text{DELAY}}) \times \frac{\text{REM}_{\text{STEP}}}{\text{RAMP}_{\text{STEP}}}\right)$$
+* **Ramp-down Stage** ($\mathtt{STEP} \ge \mathtt{MAX\\_STEP} - \mathtt{RAMP\\_STEP}$):
+  $$\mathtt{DELAY} = \mathtt{START\\_DELAY} - \left((\mathtt{START\\_DELAY} - \mathtt{TARGET\\_DELAY}) \times \frac{\mathtt{REM\\_STEP}}{\mathtt{RAMP\\_STEP}}\right)$$
 
-* **Configured Thresholds:** $\text{START}_{\text{DELAY}} = 1200\ \mu\text{s}$, with default Feedrates of $1500\text{ mm/min}$ (Rapid G0) and $300\text{ mm/min}$ (Cutting G1).
+* **Configured Thresholds:** $\mathtt{START\\_DELAY} = 1200\ \mu\text{s}$, with default Feedrates of $1500\text{ mm/min}$ (Rapid G0) and $300\text{ mm/min}$ (Cutting G1).
 
 ## 🛠️ Hardware Specifications & Component Bill
 
